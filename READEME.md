@@ -55,3 +55,16 @@ with open("new_json_file.json") as jsonfile:  # Decoding
 # We have DECODED/READING our file new_json.json that we created earlier
 # We have used dumps(), dump() and load() methods
 ```
+### exchange rate exercise
+
+``` bash
+# import json
+# create a class Exchange_Rates
+# with required attributes
+# fetch the data from exchange_rates.json
+# display the data
+# display the type of the data
+# method to return the exchange rates
+# display exchange rates with specific currencies
+# give full path of the location if saved any where else
+```

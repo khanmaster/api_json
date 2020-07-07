@@ -23,7 +23,7 @@ null
 ```python
 import json
 
-# ENCODING from dictionary and writing to jsonfile
+# ENCODING/WRITING from dictionary and writing to jsonfile
 car_data = {"name": "tesla", "engine": "electric"}  # dictionary
 print(car_data)
 # printing the dictionary
@@ -52,6 +52,6 @@ with open("new_json_file.json") as jsonfile:  # Decoding
     print(car['name']) # To get the value stored in key called name
     print(car['engine']) # To get the value of second key value pair
 
-# We have DECODED our file new_json.json that we created earlier
+# We have DECODED/READING our file new_json.json that we created earlier
 # We have used dumps(), dump() and load() methods
 ```
